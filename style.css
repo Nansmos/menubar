@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: nan;
+    src: url(font/Royalacid_o.ttf);
+}
+@font-face {
+    font-family: logo;
+    src: url(font/INFECTED.ttf);
+}
+.header{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.container .logo{
+    text-decoration: none;
+    font-size: 30px;
+    padding:10px 0 10px 0; 
+    color: rgb(210, 3, 206);
+    font-family: logo;
+}
+.container span{
+    color: blue;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    text-align: center; 
+}
+.menu li a{
+    text-decoration: none;
+    margin-left:80px ;
+    font-size: 20px;
+    color: rgb(179, 9, 205);
+    font-family: nan;
+}
+.menu li a:hover{
+    color: rgb(255, 0, 0);
+}
+
+
